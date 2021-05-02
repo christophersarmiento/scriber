@@ -1,0 +1,20 @@
+{
+  "name": "scriber",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "author": "Christopher Sarmiento <contact@csarmiento.com> (https://csarmiento.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "@google-cloud/speech": "^4.4.0",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1"
+  }
+}
